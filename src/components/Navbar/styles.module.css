@@ -1,0 +1,92 @@
+.nav, .navMobile{
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    background-color: #41287B;
+    border-bottom: 1px solid #4f3495 ;
+}
+.nav{
+    gap: 2rem;
+    padding: 0.8rem 8rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.navMobile{
+    flex-direction: column;
+}
+.mobileNavHeader{
+    padding: 0.6rem 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.ul {
+    display: flex;
+    gap: 1.7rem;
+    list-style: none;
+}
+.li {
+    font-size: 0.85rem;
+}
+
+.rightAlignContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navIcon{
+    cursor: pointer;
+}
+
+.button{
+    border-radius: 2rem;
+    font-size: 0.85rem;
+    font-weight: 'bold';
+    color: #fff;
+    padding: 0.8rem 1.2rem;
+    border-width: 1px;
+    border-color: #ff410d;
+    background-color: #fff;
+    color: #ff410d;
+}
+
+.button:hover{
+    color: #fff;
+    background-color: #f51767;
+    cursor: pointer;
+}
+
+.openCloseNavButton{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+}
+
+.mobileUl{
+    width: 100%;
+    /* display: flex; */
+}
+
+.mobileLi{
+    width: 100%;
+    list-style: none;
+    border-top: 1px solid #ccc;
+    padding: 0.5rem 1rem;
+}
+.mobileLi:hover{
+    background-color: #f51767;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    
+}
+@media (min-width: 767px) {
+    
+}
