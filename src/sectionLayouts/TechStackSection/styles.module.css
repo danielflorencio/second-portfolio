@@ -13,20 +13,21 @@
 .titles{
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1.6rem;
+    text-align: center;
 }
 .title{
-
+    font-size: 2.6rem;
 }
 .subtitle{
-
+    font-size: 1.8rem;
 }
 .skillList{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    gap: 3rem;
+    gap: 6rem;
 }
 .skillBlock{
     background-color: #fff;
@@ -42,6 +43,18 @@
 }
 .icon{
 
+}
+
+@media (max-width: 767px) {
+    .skillList{
+        gap: 2.5rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .subtitle{
+        font-size: 1.4rem;
+    }
 }
 
 /* 92E3A9 Green color */

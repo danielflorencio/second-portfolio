@@ -1,6 +1,5 @@
 .section{
     min-height: 100vh;
-    /* border: 10px solid black; */
     width: 100vw;
     /* background-color: #41287B; */
     /* background: linear-gradient(to bottom, #41287B, #362167); */
@@ -37,7 +36,6 @@
 }
 .titles h2{
     font-size: 1.6rem;
-    /* width: 650px; */
 }
 .img{
     width: 350px;

@@ -1,11 +1,10 @@
 .nav, .navMobile{
     width: 100vw;
     display: flex;
-    position: fixed;
     /* background-color: #41287B; */
     /* background-color: #6e07f3; */
     background-color: #fff;
-    border-bottom: 1px solid #4f3495 ;
+    color: #41287B;
 }
 .nav{
     gap: 2rem;
@@ -31,6 +30,20 @@
 .li {
     font-size: 0.85rem;
 }
+
+.li a{
+    text-decoration: none;
+}
+
+.li a:visited{
+    color: #4f3495;
+}
+
+.li a:hover{
+    color: #92E3A9;
+    text-decoration: underline;
+}
+
 
 .rightAlignContainer{
     display: flex;
@@ -71,7 +84,6 @@
 
 .mobileUl{
     width: 100%;
-    /* display: flex; */
 }
 
 .mobileLi{

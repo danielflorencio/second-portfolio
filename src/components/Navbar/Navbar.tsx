@@ -10,7 +10,7 @@ export default function Navbar(){
             <ul className={styles.ul}>
                 <li className={styles.li}><a href='#benefits'>Benefícios</a></li>
                 <li className={styles.li}><a href='#services'>Serviços</a></li>
-                <li className={styles.li}><a>Perguntas frequentes</a></li>
+                <li className={styles.li}><a href='#faq'>Perguntas frequentes</a></li>
             </ul>
             <button className={styles.button}>Agende uma reunião</button>
             </div>

@@ -21,6 +21,7 @@
     background-image: linear-gradient(to right, #41287B, #28184d);
     background-clip: text;
     color: transparent;
+    text-align: center;
 }
 .name{
     font-size: 1.8rem;
