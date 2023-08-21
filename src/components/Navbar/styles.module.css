@@ -63,15 +63,16 @@
     color: #fff;
     padding: 0.8rem 1.2rem;
     border-width: 1px;
-    border-color: #ff410d;
+    border-color: #6e07f3;
     background-color: #fff;
-    color: #ff410d;
+    color: #6e07f3;
+    font-weight: bold;
 }
 
 .button:hover{
     color: #fff;
-    background-color: #f51767;
-    cursor: pointer;
+    background-color: #6e07f3;
+    cursor: pointer;    
 }
 
 .openCloseNavButton{
