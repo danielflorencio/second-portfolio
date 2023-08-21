@@ -4,8 +4,10 @@
     width: 100vw;
     /* background-color: #41287B; */
     /* background: linear-gradient(to bottom, #41287B, #362167); */
-    background: linear-gradient(to bottom, #41287B, #28184d);
-    color: #fff;
+    /* background: linear-gradient(to bottom, #41287B, #28184d); */
+    /* background-color: #6e07f3; */
+    background-color: #fff;
+    color: #000;
     display: flex;
     width: '100%';
     justify-content: space-around;

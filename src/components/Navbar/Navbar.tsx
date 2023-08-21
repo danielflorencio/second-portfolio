@@ -5,7 +5,7 @@ export default function Navbar(){
 
     return(
         <div className={styles.nav}>
-            <Image src="/white-logo-no-bg.png" alt='logo' width={80} height={80} style={{marginTop: -35, marginBottom: -35, marginLeft: '-5%'}} priority/>
+            <Image src="/green-purple-logo-no-bg.png" alt='logo' width={80} height={80} style={{marginTop: -35, marginBottom: -35, marginLeft: '-5%'}} priority/>
             <div className={styles.rightAlignContainer}>
             <ul className={styles.ul}>
                 <li className={styles.li}><a href='#benefits'>Benefícios</a></li>

@@ -18,7 +18,7 @@ export default function MobileNavbar(){
     return(
         <div className={styles.navMobile}>
             <div className={styles.mobileNavHeader}>
-                <Image src="/logo-orange-svg.svg" alt='logo' width={240} height={120} style={{marginTop: -45, marginBottom: -45, marginLeft: '-10%'}} priority/>
+                <Image src="/green-purple-logo-no-bg.png" alt='logo' width={240} height={120} style={{marginTop: -45, marginBottom: -45, marginLeft: '-10%'}} priority/>
                 <div style={{display: 'flex', gap: '1.5rem', alignItems: 'center'}}>
                     <button className={styles.button}>Agende uma reunião</button>
                     {isClosed ? (<FaBars onClick={handleNavbarAction} className={styles.navIcon}/>) : <AiOutlineArrowUp onClick={handleNavbarAction} className={styles.navIcon}/>}

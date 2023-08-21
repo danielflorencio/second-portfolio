@@ -2,7 +2,9 @@
     width: 100vw;
     display: flex;
     position: fixed;
-    background-color: #41287B;
+    /* background-color: #41287B; */
+    /* background-color: #6e07f3; */
+    background-color: #fff;
     border-bottom: 1px solid #4f3495 ;
 }
 .nav{
