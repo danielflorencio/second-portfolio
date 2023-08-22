@@ -4,15 +4,18 @@ import HeroSectionOne from '@/sectionLayouts/heroSectionOne'
 import Navbar from '@/components/Navbar/Navbar'
 import TestimonialSection from '@/sectionLayouts/TestimonialSection'
 import TechStackSection from '@/sectionLayouts/TechStackSection'
+import NavbarContainer from '@/components/Navbar/NavbarContainer'
+import Projects from '@/sectionLayouts/Projects/Index'
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Navbar/>
+      <NavbarContainer/>
       <HeroSectionOne/>
       <TestimonialSection img='' name='Mateus Sousa' testimonial={["Hey, this is the testimonial's first paragraph. Here will go everything someone will have to say about my work.", "These can be anything complimenting my work or saying what it was like to work with me."]}/>
       <TechStackSection/>
       <TestimonialSection img='' name='Second Person' testimonial={["Hey, this is the testimonial's first paragraph. Here will go everything someone will have to say about my work.", "These can be anything complimenting my work or saying what it was like to work with me."]}/>
+      <Projects/>
     </main>
   )
 }

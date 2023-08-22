@@ -33,8 +33,8 @@ export default function TechStackSection(){
             <h3 className={styles.subtitle}>Everything you need to get your company's frontend back on track.</h3>
             </div>
             <div className={styles.skillList}>
-                {skillBlocks.map((skill) => (
-                    <div className={styles.skillBlock}>
+                {skillBlocks.map((skill, index) => (
+                    <div key={index} className={styles.skillBlock}>
                         {isSmallScreen ? (
                             <IconContext.Provider value={{size: '3.0rem'}}>
                                 {skill[0]}

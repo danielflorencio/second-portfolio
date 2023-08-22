@@ -5,11 +5,13 @@ import Navbar from "./Navbar"
 
 export default function NavbarContainer(){
 
-    const isSmallScreen = useMediaQuery({ query: '(max-width: 767px)' }) 
+    // const isSmallScreen = useMediaQuery({ query: '(max-width: 767px)' }) 
     
     return(
         <>
-            {isSmallScreen ? <MobileNavbar/> : <Navbar/>}
+            {/* {isSmallScreen ? <MobileNavbar/> : <Navbar/>} */}
+            <Navbar/>
+            <MobileNavbar/> 
         </>
     )
 }

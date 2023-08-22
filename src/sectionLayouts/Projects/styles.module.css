@@ -1,0 +1,41 @@
+.section{
+    width: 100vw;
+    display: flex;
+    background-color: #6e07f3;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 1rem;
+}
+.projectBlock{
+    background-color: #fff;
+    width: 90%;
+    display: flex;
+    border-radius: 12px;
+    padding: 1.5rem 3rem;
+}
+.skillList{
+    display: flex;
+    gap: 1rem;
+}
+.skillItem{
+    border-radius: 9px;
+    border: 2px solid #6e07f3;
+    padding: 0.3rem 1rem;
+}
+.skillItem:hover{
+    background-color: #6e07f3;
+    color: #fff;
+}
+.projectImgContainer{
+
+}
+.projectImg{
+
+}
+@media (max-width: 768px) {
+    .projectBlock{
+        /* width: ; */
+    }
+}
