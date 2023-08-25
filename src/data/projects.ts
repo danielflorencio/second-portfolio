@@ -1,5 +1,5 @@
 export const projects = [
-    { imgSrc: 'fire-screenshot.png', 
+    { imgSrc: '/calon-website.png', 
     title: 'Personal Finance Web App', 
     descriptionParagraphs: 
     ['This is Fire, a personal finance web application that helps people control their finances, take better financial decisions and retire as early as possible. This project has a handful of features all aimed towards one simple goal: making you get the best out of all of your money investments.', 
@@ -8,9 +8,13 @@ export const projects = [
     skills: ['HTML', 'CSS', 'React', 'Redux', 'Bootstrap', 'TypeScript'], 
     liveLink: 'https://danielflorencio.github.io/fire_advisor/',
     repoLink: 'https://github.com/danielflorencio/fire_advisor',
-    direction: 'direct'},
+    direction: 'direct',
+    customHeight: '400',
+    customWidth: '330'
     
-    { imgSrc: 'aos-screenshot.png', 
+    },
+    
+    { imgSrc: '/chatbot-app.png', 
     title: 'AOS - The Application Optimizing System', 
     descriptionParagraphs: 
     ['A simple React application that helps software engineering professionals (and future professionals) track their efforts and prioritize their learning.', 
@@ -19,14 +23,8 @@ export const projects = [
     skills: ['HTML', 'CSS', 'React', 'TypeScript'], 
     liveLink: 'https://danielflorencio.github.io/aos/',
     repoLink: 'https://github.com/danielflorencio/aos',
-    direction: 'reverse'},
-    
-    { imgSrc: 'salus-screenshot.png', 
-    title: 'Digital Agency Website', 
-    descriptionParagraphs: 
-    ['Built a Website with the goal of acquiring new customers for a marketing agency that focuses on healthcare clinics and doctors as their main target audience.', 
-    'It is a fully responsive and conversion focused web page, where it’s unique goal is to generate meetings and finally sales.'], 
-    liveLink: 'https://danielflorencio.github.io/rp-salusmidia/',
-    repoLink: 'https://github.com/danielflorencio/rp-salusmidia',
-    skills: ['HTML', 'CSS', 'React', 'JavaScript'], direction: 'direct'}
+    direction: 'reverse',
+    customHeight: '200',
+    customWidth: '400'
+},
 ]
