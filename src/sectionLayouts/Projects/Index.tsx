@@ -30,13 +30,13 @@ function ProjectOne({project}: {project: any}){
                         </a>
                     </div>
                     <div className={styles.descriptionParagraphs}>
-                    {project.descriptionParagraphs.map((paragraph, pIndex) =>(
+                    {project.descriptionParagraphs.map((paragraph: any, pIndex: number) =>(
                         <p key={pIndex} className={styles.descriptionParagraph}>{paragraph}<br/><br/></p>
                     ))}
                     </div>
                 </div>
                 <div className={styles.skillList}>
-                    {project.skills.map((skill, skillIndex) => (
+                    {project.skills.map((skill: any, skillIndex: number) => (
                         <div key={skillIndex} className={styles.skillItem}>{skill}</div>
                     ))}
                 </div>
@@ -60,12 +60,12 @@ function ProjectTwo({project}: {project: any}){
                         </a>
                     </div>
                     <div className={styles.descriptionParagraphs}>
-                    {project.descriptionParagraphs.map((paragraph, pIndex) =>(
+                    {project.descriptionParagraphs.map((paragraph: any, pIndex: number) =>(
                         <p key={pIndex} className={styles.descriptionParagraph}>{paragraph}<br/><br/></p>
                     ))}
                     </div>                </div>
                 <div className={styles.skillList}>
-                    {project.skills.map((skill, skillIndex) => (
+                    {project.skills.map((skill: any, skillIndex: number) => (
                         <div key={skillIndex} className={styles.skillItem}>{skill}</div>
                     ))}
                 </div>

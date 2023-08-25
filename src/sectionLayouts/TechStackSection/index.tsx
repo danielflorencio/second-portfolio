@@ -29,8 +29,8 @@ export default function TechStackSection(){
     return(
         <section className={styles.section}>
             <div className={styles.titles}>
-            <h2 className={styles.title}>These are the technologies I've been specializing in.</h2>
-            <h3 className={styles.subtitle}>Everything you need to get your company's frontend back on track.</h3>
+            <h2 className={styles.title}>These are the technologies I&apos;ve been specializing in.</h2>
+            <h3 className={styles.subtitle}>Everything you need to get your company&apos;s frontend back on track.</h3>
             </div>
             <div className={styles.skillList}>
                 {skillBlocks.map((skill, index) => (
