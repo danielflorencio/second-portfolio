@@ -6,7 +6,13 @@
     text-align: center;
     color: #fff;
     font-size: 2.6rem;
-    padding-top: 3rem;
+    padding-top: 3rem 1.2rem;
+    max-width: 90%;
+}
+@media (max-width: 768px) {
+    .sectionTitle{
+        font-size: 2.4rem;
+    }
 }
 .container{
     display: flex;
