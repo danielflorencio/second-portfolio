@@ -1,13 +1,12 @@
 export const projects = [
     { imgSrc: '/calon-website.png', 
-    title: 'Personal Finance Web App', 
+    title: 'Calon - Digital Marketing Agency Landing Page', 
     descriptionParagraphs: 
-    ['This is Fire, a personal finance web application that helps people control their finances, take better financial decisions and retire as early as possible. This project has a handful of features all aimed towards one simple goal: making you get the best out of all of your money investments.', 
-    'The app fetches data from external APIS in order to better inform the user of their preferred stocks real-time data whenever they need it.', 
-    'It also helps them track all of their expenses, incomes, and will, in the future, use analytical data structures and algorithms to give insights on how to improve their spending, so they can accelerate their journey to financial independence.'], 
-    skills: ['HTML', 'CSS', 'React', 'Redux', 'Bootstrap', 'TypeScript'], 
-    liveLink: 'https://danielflorencio.github.io/fire_advisor/',
-    repoLink: 'https://github.com/danielflorencio/fire_advisor',
+    ['Created a High-speed and conversion-focused landing page for a Brazilian digital marketing agency.', 
+     'I also crafted the copywriting for the page and ensured its deployment to production, making it readily accessible within a cloud environment.'], 
+    skills: ['HTML', 'CSS Modules', 'Next.Js', 'Bootstrap', 'TypeScript'], 
+    liveLink: 'https://calon-website.pages.dev/',
+    repoLink: 'https://calon-website.pages.dev/',
     direction: 'direct',
     customHeight: '400',
     customWidth: '330'
@@ -15,14 +14,13 @@ export const projects = [
     },
     
     { imgSrc: '/chatbot-app.png', 
-    title: 'AOS - The Application Optimizing System', 
+    title: 'Chatbot micro SaaS Project', 
     descriptionParagraphs: 
-    ['A simple React application that helps software engineering professionals (and future professionals) track their efforts and prioritize their learning.', 
-    'It helps them optimize their progress by analyzing their technical job skills and technical interview skills, so they know exactly what to focus and thus avoid procrastination and feeling lost.',
-    'It also has a Word-frequency analyzing system, so they can analyze job postings descriptions and find the most common used keywords for their specific roles and beat the ATS (Applicant Tracking System).'], 
-    skills: ['HTML', 'CSS', 'React', 'TypeScript'], 
-    liveLink: 'https://danielflorencio.github.io/aos/',
-    repoLink: 'https://github.com/danielflorencio/aos',
+    ["This is a full-stack application I'm currently building on my own to automate conversations, increase sales, and reduce costs with attendants of companies in multiple industries.", 
+    'It already has a complete JWT Authentication system, a complete messaging functionality which persists data in the database, with more features and improvements coming in the future.'],
+    skills: ['React', 'TypeScript', 'Material UI', 'Node.Js', 'Express.Js', 'MongoDB', 'Docker', 'Cypress', 'Jest', 'React Testing Library'], 
+    liveLink: 'https://github.com/danielflorencio/chatbot-monorepo',
+    repoLink: 'https://github.com/danielflorencio/chatbot-monorepo',
     direction: 'reverse',
     customHeight: '200',
     customWidth: '400'
