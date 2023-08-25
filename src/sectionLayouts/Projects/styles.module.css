@@ -1,13 +1,14 @@
 .section{
     width: 100vw;
     background-color: #6e07f3;
+    padding-top: 1.5rem;
 }
 .sectionTitle{
     text-align: center;
     color: #fff;
     font-size: 2.6rem;
-    padding-top: 3rem 1.2rem;
-    max-width: 90%;
+    padding-top: 3rem 1.5rem;
+    width: 100%;
 }
 @media (max-width: 768px) {
     .sectionTitle{
