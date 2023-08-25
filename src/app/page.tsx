@@ -6,6 +6,7 @@ import TestimonialSection from '@/sectionLayouts/TestimonialSection'
 import TechStackSection from '@/sectionLayouts/TechStackSection'
 import NavbarContainer from '@/components/Navbar/NavbarContainer'
 import Projects from '@/sectionLayouts/Projects/Index'
+import Contact from '@/components/Contact/Index'
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
 
       {/* <TestimonialSection img='' name='Second Person' testimonial={["Hey, this is the testimonial's first paragraph. Here will go everything someone will have to say about my work.", "These can be anything complimenting my work or saying what it was like to work with me."]}/> */}
       <Projects/>
+      <Contact/>
     </main>
   )
 }
