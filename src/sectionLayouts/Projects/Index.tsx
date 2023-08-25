@@ -4,7 +4,7 @@ import Image from 'next/image'
 import styles from './styles.module.css'
 export default function Projects(){
     return(
-        <section className={styles.section}>
+        <section id='projects' className={styles.section}>
             <h2 className={styles.sectionTitle}>Take a look at some of the projects I've made.</h2>
             {/* <h3 className={styles.sectionSubtitle}></h3> */}
             <div className={styles.container}>

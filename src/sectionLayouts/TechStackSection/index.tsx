@@ -27,7 +27,7 @@ export default function TechStackSection(){
     const isSmallScreen = useMediaQuery({ query: '(max-width: 768px)' }); 
 
     return(
-        <section className={styles.section}>
+        <section id='tech-stack' className={styles.section}>
             <div className={styles.titles}>
             <h2 className={styles.title}>These are the technologies I&apos;ve been specializing in.</h2>
             <h3 className={styles.subtitle}>Everything you need to get your company&apos;s frontend back on track.</h3>
