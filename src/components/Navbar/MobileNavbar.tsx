@@ -21,7 +21,7 @@ export default function MobileNavbar(){
             <div className={styles.mobileNavHeader}>
                 <Image src="/green-purple-logo-no-bg.png" alt='logo' width={80} height={80} priority/>
                 <div style={{display: 'flex', gap: '1.5rem', alignItems: 'center'}}>
-                    <button className={styles.button}>Talk to me</button>
+                    <a href='#contact'><button className={styles.button}>Talk to me</button></a>
                     {isClosed ? (<FaBars onClick={handleNavbarAction} className={styles.navIcon}/>) : <AiOutlineArrowUp onClick={handleNavbarAction} className={styles.navIcon}/>}
                 </div>
             </div>

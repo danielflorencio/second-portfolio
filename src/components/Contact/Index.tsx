@@ -23,7 +23,7 @@ export default function Contact(){
     };
     
     return(
-        <section className={styles.section}>
+        <section className={styles.section} id='contact'>
             <div className={styles.titleAndSubtitle}>
                 <h1 className={styles.title}>You are just a few clicks away from finding your team's newest software engineer.</h1>
                 <h2 className={styles.subtitle}>Click either one of the icons in the first row to get in touch right now.</h2>

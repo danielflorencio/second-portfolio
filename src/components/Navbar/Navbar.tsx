@@ -12,7 +12,9 @@ export default function Navbar(){
                 <li className={styles.li}><a href='#projects'>Projects</a></li>
                 <li className={styles.li}><a href='#testimonial'>Testimonial</a></li>
             </ul>
-            <button className={styles.button}>Talk to me</button>
+            <a href='#contact'>
+                <button className={styles.button}>Talk to me</button>
+            </a>
             </div>
         </div>
     )
