@@ -10,6 +10,12 @@ import Contact from '@/components/Contact/Index'
 
 export default function Home() {
   return (
+    <>
+    <head>
+      <link rel="icon" href="/green-purple-logo-no-bg.png" sizes="any" />
+      <title>Daniel Portfolio</title>
+    </head>
+    
     <main className={styles.main}>
       <NavbarContainer/>
       <HeroSectionOne/>
@@ -31,6 +37,7 @@ export default function Home() {
       <Projects/>
       <Contact/>
     </main>
+    </>
   )
 }
 
