@@ -17,6 +17,7 @@ export default function Home() {
     </head>
     
     
+
     <main className={styles.main}>
       <NavbarContainer/>
       <HeroSectionOne/>
