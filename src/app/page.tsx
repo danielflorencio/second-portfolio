@@ -15,8 +15,6 @@ export default function Home() {
       <link rel="icon" href="/green-purple-logo-no-bg.png" sizes="any" />
       <title>Daniel Portfolio</title>
     </head>
-    
-    
 
     <main className={styles.main}>
       <NavbarContainer/>
