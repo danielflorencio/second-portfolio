@@ -20,7 +20,7 @@ export default function Home() {
       // testimonial={[
       //   "I had already tried with with three different people to create a page for my digital agency. All I had was issues, the page would get loading stutters, and the final result were overall terrible...", 
       //   "But Daniel solved it with an ease I'm up until this moment in disbelief hahahahah the page is just Perfect! I already want to hire him for some other projects, and who knows, we might even become business partners."]}/>
-
+      // 
       testimonial={[
         "I had already tried with three different people to create a page for my digital agency.",
         "All I had was issues, the page would get loading stutters, and the final results were always overall terrible...", 
