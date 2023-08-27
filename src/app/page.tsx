@@ -16,6 +16,7 @@ export default function Home() {
       <title>Daniel Portfolio</title>
     </head>
     
+    
     <main className={styles.main}>
       <NavbarContainer/>
       <HeroSectionOne/>
