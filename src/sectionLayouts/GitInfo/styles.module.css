@@ -1,0 +1,53 @@
+.section{
+    min-width: 100vw;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem 2rem;
+}
+.title, .subtitle{
+    text-align: center;
+}
+.title{
+    font-size: 2.6rem;
+}
+.subtitle{
+    font-size: 1.8rem;
+}
+.infoBlocks{
+    margin-top: 3rem;
+    display: flex;
+    gap: 9rem; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.infoBlock{
+    border-radius: 100%;
+    border: 5px solid var(--main-purple);
+    width: 14rem;
+    height: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.infoBlockNumber{
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+.infoBlockTitle{
+    font-weight: 500;
+    font-size: 1rem;
+    width: fit-content;
+}
+@media (max-width: 768px) {
+    .title{
+        font-size: 2rem;
+    }
+    .subtitle{
+        font-size: 1.4rem;
+    }
+}

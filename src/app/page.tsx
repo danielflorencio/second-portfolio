@@ -6,7 +6,9 @@ import TestimonialSection from '@/sectionLayouts/TestimonialSection'
 import TechStackSection from '@/sectionLayouts/TechStackSection'
 import NavbarContainer from '@/components/Navbar/NavbarContainer'
 import Projects from '@/sectionLayouts/Projects/Index'
-import Contact from '@/components/Contact/Index'
+import Contact from '@/sectionLayouts/Contact/Index'
+import GitInfo from '@/sectionLayouts/GitInfo/Index'
+import GithubInfoApolloWrapper from '@/sectionLayouts/GitInfo/ApolloWrapper'
 
 export default function Home() {
   return (
@@ -15,9 +17,8 @@ export default function Home() {
       <link rel="icon" href="/green-purple-logo-no-bg.png" sizes="any" />
       <title>Daniel Portfolio</title>
     </head>
-    
-    
 
+    <body>
     <main className={styles.main}>
       <NavbarContainer/>
       <HeroSectionOne/>
@@ -37,8 +38,10 @@ export default function Home() {
 
       {/* <TestimonialSection img='' name='Second Person' testimonial={["Hey, this is the testimonial's first paragraph. Here will go everything someone will have to say about my work.", "These can be anything complimenting my work or saying what it was like to work with me."]}/> */}
       <Projects/>
+      <GithubInfoApolloWrapper/>
       <Contact/>
     </main>
+    </body>
     </>
   )
 }
