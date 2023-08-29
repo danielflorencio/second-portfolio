@@ -3,7 +3,7 @@
 import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client';
 import GitInfo from './Index';
   
-  const token = process.env.GITHUB_KEY
+  const token = process.env.NEXT_PUBLIC_GITHUB_KEY
   
   const client = new ApolloClient({
     cache: new InMemoryCache(),
