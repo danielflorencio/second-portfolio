@@ -7,6 +7,8 @@
     flex-direction: column;
     gap: 4rem;
     padding: 4rem 1rem;
+    /* color: #fff; */
+    background-color: #ececec;;
 }
 .titleAndSubtitle{
     display: flex;

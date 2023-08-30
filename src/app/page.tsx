@@ -6,7 +6,9 @@ import TestimonialSection from '@/sectionLayouts/TestimonialSection'
 import TechStackSection from '@/sectionLayouts/TechStackSection'
 import NavbarContainer from '@/components/Navbar/NavbarContainer'
 import Projects from '@/sectionLayouts/Projects/Index'
-import Contact from '@/components/Contact/Index'
+import Contact from '@/sectionLayouts/Contact/Index'
+import GitInfo from '@/sectionLayouts/GitInfo/Index'
+import GithubInfoApolloWrapper from '@/sectionLayouts/GitInfo/ApolloWrapper'
 
 export default function Home() {
   return (
@@ -16,6 +18,7 @@ export default function Home() {
       <title>Daniel Portfolio</title>
     </head>
 
+    <body>
     <main className={styles.main}>
       <NavbarContainer/>
       <HeroSectionOne/>
@@ -26,7 +29,7 @@ export default function Home() {
       // testimonial={[
       //   "I had already tried with with three different people to create a page for my digital agency. All I had was issues, the page would get loading stutters, and the final result were overall terrible...", 
       //   "But Daniel solved it with an ease I'm up until this moment in disbelief hahahahah the page is just Perfect! I already want to hire him for some other projects, and who knows, we might even become business partners."]}/>
-
+      // 
       testimonial={[
         "I had already tried with three different people to create a page for my digital agency.",
         "All I had was issues, the page would get loading stutters, and the final results were always overall terrible...", 
@@ -35,8 +38,10 @@ export default function Home() {
 
       {/* <TestimonialSection img='' name='Second Person' testimonial={["Hey, this is the testimonial's first paragraph. Here will go everything someone will have to say about my work.", "These can be anything complimenting my work or saying what it was like to work with me."]}/> */}
       <Projects/>
+      <GithubInfoApolloWrapper/>
       <Contact/>
     </main>
+    </body>
     </>
   )
 }
