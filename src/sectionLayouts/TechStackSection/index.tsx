@@ -1,19 +1,17 @@
 'use client'
 import styles from './styles.module.css'
-
 import {IconContext} from 'react-icons'
 import {BsBootstrapFill} from 'react-icons/bs'
 import {DiReact, DiSass, DiCss3} from 'react-icons/di'
 import {SiJavascript, SiTailwindcss, SiNextdotjs, SiTypescript, SiRedux} from 'react-icons/si'
 import {AiFillHtml5, AiFillGithub} from 'react-icons/ai'
-import { useMediaQuery } from 'react-responsive'
 
 export const skillBlocks = [
     [<AiFillHtml5 className='hover:text-htmlIcon'/>, 'HTML',], 
     [<DiCss3 className='hover:text-cssIcon'/>, 'CSS'],
     [<SiJavascript className='hover:text-jsIcon'/>, 'JavaSCript'],
     [<DiReact className='hover:text-reactIcon'/>, 'React'],
-    // [<SiNextdotjs/>, 'Next Js'],
+    [<SiNextdotjs/>, 'Next Js'],
     [<SiTypescript className='hover:text-tsIcon'/>, 'TypeScript'],
     [<SiRedux className='hover:text-reduxIcon'/>, 'Redux Toolkit'],
     [<AiFillGithub className='hover:text-white hover:bg-black rounded-full border-none'/>, 'Git'],
@@ -23,8 +21,6 @@ export const skillBlocks = [
 ]
 
 export default function TechStackSection(){
-    
-    const isSmallScreen = useMediaQuery({ query: '(max-width: 768px)' }); 
 
     return(
         <section id='tech-stack' className={styles.section}>
@@ -35,15 +31,11 @@ export default function TechStackSection(){
             <div className={styles.skillList}>
                 {skillBlocks.map((skill, index) => (
                     <div key={index} className={styles.skillBlock}>
-                        {isSmallScreen ? (
-                            <IconContext.Provider value={{size: '3.0rem'}}>
-                                {skill[0]}
-                            </IconContext.Provider>    
-                        ) : (
-                            <IconContext.Provider value={{size: '3.5rem'}}>
+                        <div className={styles.iconContainer}>
+                            <IconContext.Provider value={{size: '100%'}}>
                                 {skill[0]}
                             </IconContext.Provider>
-                        )}
+                        </div>
                         <div>{skill[1]}</div>
                     </div>
                 ))}
