@@ -15,7 +15,6 @@ export default function Projects(){
     )
 }
 
-
 const PortfolioProject = ({project}: {project: TProject}) => {
     return(
         <div className={styles.projectBlock}>
