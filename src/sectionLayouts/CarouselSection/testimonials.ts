@@ -19,9 +19,9 @@ export const testimonialsData: TestimonialType[] = [
         img:'/philipe.jpg',
         name:'Filipe Hamza',
         paragraphs: [
-            "Daniel and I worked together to deliver an AI Based fullstack software to a UK based client, and I can’t simply express how great it was to work with him.",
-            "He has always been extremely communicative throughout the whole process, and has also been helpful to solve even the issues outside of his scope and comfort zone.",
-            "If you’re a recruiter, a hiring manager or anyone looking for someone to integrate your team, and you’re reading this right now, wondering if he could be a great addition to your team, I’d advise you to not lose any more time.",
+            "Daniel and I worked together to deliver an AI fullstack software to a UK based client, and I can’t express how great it was to work with him.",
+            "He's always been extremely communicative throughout the whole process, and has also been helpful to solve even the issues outside of his scope and comfort zone.",
+            "If you’re looking for someone to integrate your team, and you’re reading this right now, wondering if he could be a great addition to your team, I’d advise you to not lose any time.",
             "You certainly wouldn’t want to lose a great talent when you see one, and this is your chance to seize"
         ]
     }

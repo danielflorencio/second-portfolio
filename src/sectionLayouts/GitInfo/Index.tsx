@@ -23,28 +23,9 @@ query {
 }
 `
 
-// const GET_SCHEMA = gql`
-// query {
-//     __schema {
-//       types {
-//         name
-//         kind
-//         description
-//         fields {
-//           name
-//         }
-//       }
-//     }
-//   }  
-// `
-
 export default function GitInfo(){
 
     const { data: contributionData } = useQuery(GET_CONTRIBUTION_DAYS);
-
-    // const graphqlSchema = useQuery(GET_SCHEMA);
-
-    // console.log('GraphQL Schema: ', graphqlSchema)
 
     const [commits, setCommits] = useState();
     const [streak, setStreak] = useState<number>();
@@ -53,7 +34,6 @@ export default function GitInfo(){
     useEffect(() => {
         let streaks: number[] = [0];
         if(contributionData){
-            console.log('ContributionData: ', contributionData)
             for(let i = 0; i < contributionData.viewer.contributionsCollection.contributionCalendar.weeks.length; i++){
                 for(let n = 0; n < contributionData.viewer.contributionsCollection.contributionCalendar.weeks[i].contributionDays.length; n++){
                     if(contributionData.viewer.contributionsCollection.contributionCalendar.weeks[i].contributionDays[n].contributionCount > 0){
