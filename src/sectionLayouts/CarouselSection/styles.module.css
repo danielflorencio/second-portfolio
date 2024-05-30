@@ -1,0 +1,155 @@
+.section{
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: nowrap; */
+    border: solid red 4px;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    min-height: 80vh;
+    width: 100vw;
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+}
+
+.carouselContainer{
+    position: relative;
+    border: 2px solid yellow;
+    min-height: 80vh;
+    min-width: 90vw;
+    display: flex;
+    justify-content: center;
+    /* width: 50%; */
+    /* height: 100%; */
+    /* min-width: 90vh; */
+}
+
+.hidden{
+    /* opacity: 1; */
+}
+
+.carouselItem{
+    position: absolute;
+    /* width: 0; */
+    padding: 0;
+    opacity: 0;
+    /* top: -240px; */
+    /* right: -240px; */
+    /* transform: translateY(500px); */
+}
+
+.showLeft {
+    animation: showLeft 1s ease-in-out forwards;
+    /* display: hidden; */
+    /* visibility: hidden; */
+}
+
+@keyframes showLeft {
+    0% {
+        transform: translateX(0px);
+        /* display: hidden; */
+        /* visibility: hidden; */
+        opacity: 1;
+    }
+
+    99% {
+        /* display: hidden; */
+        /* visibility: hidden; */
+    }
+
+
+    100% {
+        transform: translateX(100px);
+        /* display: contents; */
+        /* visibility: visible; */
+        opacity: 0;
+    }
+}
+
+.showRight {
+    animation: showRight 1s ease-in-out forwards;
+    /* display: hidden; */
+    /* visibility: hidden; */
+
+}
+
+@keyframes showRight {
+    0% {
+        transform: translateX(0px);
+        /* display: hidden; */
+        /* visibility: hidden; */
+        opacity: 1;
+
+    }
+
+    99%{
+        /* display: hidden; */
+        /* visibility: hidden; */
+
+    }
+
+    100% {
+        transform: translateX(-100px);
+        /* display: contents; */
+        /* visibility: visible; */
+        opacity: 0;
+
+
+    }
+}
+
+.disappearLeft {
+    animation: disappearLeft 1s ease-in-out forwards;
+    /* display: contents; */
+    /* visibility: visible; */
+}
+
+@keyframes disappearLeft {
+    0% {
+        transform: translateX(-100px);
+        /* visibility: visible; */
+        opacity: 0;
+
+    }
+
+    99%{
+        /* visibility: visible; */
+    }
+
+    100% {
+        transform: translateX(0px);
+        /* display: hidden; */
+        /* visibility: hidden; */
+        opacity: 1;
+    }
+}
+
+
+
+.disappearRight {
+    animation: disappearRight 1s ease-in-out forwards;
+    /* display: contents; */
+    /* visibility: visible; */
+}
+
+@keyframes disappearRight {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+
+    }
+
+    99%{
+        /* visibility: visible; */
+    }
+
+    100% {
+        transform: translateX(0px);
+        /* display: hidden; */
+        /* visibility: hidden; */
+        opacity: 1;
+
+    }
+}
