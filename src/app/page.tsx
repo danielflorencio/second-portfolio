@@ -21,9 +21,9 @@ export default function Home() {
 
     <body>
     <main className={styles.main}>
-      {/* <NavbarContainer/> */}
-      {/* <HeroSectionOne/> */}
-      {/* <TechStackSection/> */}
+      <NavbarContainer/>
+      <HeroSectionOne/>
+      <TechStackSection/>
       <TestimonialCarousel/>
       {/* <TestimonialSection 
       img='/mateus-profile-pic.png' 
